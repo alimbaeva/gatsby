@@ -1,0 +1,63 @@
+
+#progress {
+  transform: rotate(-90deg);
+}
+
+circle {
+  stroke-dashoffset: 0;
+  stroke-width: 15%;
+  fill: none;
+}
+
+.bg {
+  stroke: #954e4e;
+  fill: aqua;
+  opacity: 0.3;
+}
+
+#progress .indicator {
+  stroke: #653030;
+}
+
+.carusel-parant {
+  display: flex;
+  list-style: none;
+  height: 500px;
+  overflow-x: scroll;
+  padding: 20px 0;
+  flex: 0 0 600px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: #fff3;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(189, 146, 146);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+
+.carusel-parant li {
+  flex: 0 0 300px;
+  background:rgb(189, 146, 146);
+  margin: 0 20px 0 0;
+}
+
+.carusel-parant li:last-of-type {
+  margin: 0;
+}
+.carusel-parant aside {
+    padding: 15px;
+}
+
+.corusel-img {
+    height: 200px;
+}

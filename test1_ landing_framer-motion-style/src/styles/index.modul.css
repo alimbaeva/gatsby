@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    position: relative;
+    min-height: 700px;
+}
+
+a {
+    margin-right: 15px;
+}
